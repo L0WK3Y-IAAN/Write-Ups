@@ -9,7 +9,7 @@
 
 (Can be found using Virustotal Details)
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled.png)
+![Untitled](Subatomic%20Walkthrough/Untitled.png)
 
 **Task 2**
 
@@ -19,7 +19,7 @@
 > 
 - Can be found in Virustotal Details
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%201.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%201.png)
 
 **Task 3**
 
@@ -27,7 +27,7 @@
 
 (Can be found using procdot)
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%202.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%202.png)
 
 **Task 4**
 
@@ -71,13 +71,13 @@ Here's an overview of some common software licenses, each catering to different 
 
 These licenses are adapted to different goals and strategies for software distribution and use, from open academic collaboration to commercial proprietary development with open-source components.
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%203.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%203.png)
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%204.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%204.png)
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%205.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%205.png)
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%206.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%206.png)
 
 **Task 5**
 
@@ -85,7 +85,7 @@ These licenses are adapted to different goals and strategies for software distri
 
 - This answer can be found with FakeNetNG, Wireshark, etc…
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%207.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%207.png)
 
 **Task 6**
 
@@ -100,7 +100,7 @@ These licenses are adapted to different goals and strategies for software distri
 [https://stackoverflow.com/questions/38523617/how-to-unpack-an-asar-file](https://stackoverflow.com/questions/38523617/how-to-unpack-an-asar-file)
 > 
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%208.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%208.png)
 
 - After extracting the ASAR, i opened the folder in Visual Studio Code, to debug the app.js.
 
@@ -108,9 +108,9 @@ These licenses are adapted to different goals and strategies for software distri
 > 
 - After starting the debugging process, I immediately paused to see what the program is doing. Right off the bat I immediately noticed the *“newInjection”*  in the call stack.
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%209.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%209.png)
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%2010.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%2010.png)
 
 - After heading to this function we can see their is a POST request being made to *“hxxps://ipinfo.io/json”,* which is used to gather info on the target such as IP, country, city, and region.
 
@@ -120,7 +120,7 @@ These licenses are adapted to different goals and strategies for software distri
 
 - Can be found within the same file as the previous question by searching for *“http”*
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%2011.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%2011.png)
 
 **Task 8**
 
@@ -128,7 +128,7 @@ These licenses are adapted to different goals and strategies for software distri
 
 - Can be found in the same file as the previous question by searching for *“user_id”*
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%2012.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%2012.png)
 
 **Task 9**
 
@@ -136,7 +136,7 @@ These licenses are adapted to different goals and strategies for software distri
 
 - Can be found in the same file as the previous question by searching for *“arch”*
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%2013.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%2013.png)
 
 **Task 10**
 
@@ -144,7 +144,7 @@ These licenses are adapted to different goals and strategies for software distri
 
 - Can be found in the same file as the previous question.
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%2014.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%2014.png)
 
 **Task 11**
 
@@ -152,7 +152,7 @@ These licenses are adapted to different goals and strategies for software distri
 
 - Can be found in the same file as the previous question by searching for *“USERPROFILE”*
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%2015.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%2015.png)
 
 **Task 12**
 
@@ -160,7 +160,7 @@ These licenses are adapted to different goals and strategies for software distri
 
 - Can be found in the same file as the previous question by searching for *“cookies”* or *“Firefox”*
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%2016.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%2016.png)
 
 **Task 13**
 
@@ -168,4 +168,4 @@ These licenses are adapted to different goals and strategies for software distri
 
 - Can be found in the same file as the previous question by searching for *“module”*
 
-![Untitled](Subatomic%20Walkthrough%20f7e82a6abfba4bb98d78b80b2d188e8e/Untitled%2017.png)
+![Untitled](Subatomic%20Walkthrough/Untitled%2017.png)
