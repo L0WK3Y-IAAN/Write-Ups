@@ -155,8 +155,8 @@ Now that we have an understanding of what’s going on in the DecryptFlag functi
 
 # Connect With Me!
 
-[https://img.shields.io/website?label=IAANSECURITY&style=for-the-badge&url=https%3A%2F%2Fiaansecurity.com&color=green](https://img.shields.io/website?label=IAANSECURITY&style=for-the-badge&url=https%3A%2F%2Fiaansecurity.com&color=green)
+![https://img.shields.io/website?label=IAANSECURITY&style=for-the-badge&url=https%3A%2F%2Fiaansecurity.com&color=green](https://img.shields.io/website?label=IAANSECURITY&style=for-the-badge&url=https%3A%2F%2Fiaansecurity.com&color=green)
 
-[https://img.shields.io/website?label=dev.to&style=for-the-badge&url=https%3A%2F%2Fdev.to/l0wk3y&color=orange](https://img.shields.io/website?label=dev.to&style=for-the-badge&url=https%3A%2F%2Fdev.to/l0wk3y&color=orange)
+![https://img.shields.io/website?label=dev.to&style=for-the-badge&url=https%3A%2F%2Fdev.to/l0wk3y&color=orange](https://img.shields.io/website?label=dev.to&style=for-the-badge&url=https%3A%2F%2Fdev.to/l0wk3y&color=orange)
 
-[https://img.shields.io/website?label=GitHub&style=for-the-badge&url=https%3A%2F%2Fgithub.com/l0wk3y&color=yellow](https://img.shields.io/website?label=GitHub&style=for-the-badge&url=https%3A%2F%2Fgithub.com/l0wk3y&color=yellow)
+![https://img.shields.io/website?label=GitHub&style=for-the-badge&url=https%3A%2F%2Fgithub.com/l0wk3y&color=yellow](https://img.shields.io/website?label=GitHub&style=for-the-badge&url=https%3A%2F%2Fgithub.com/l0wk3y&color=yellow)
