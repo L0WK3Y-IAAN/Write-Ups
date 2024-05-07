@@ -43,7 +43,7 @@ Alright, first things first let’s set the breakpoint on those two imports, the
 
 Now that we have the encoded string, we need to decode it. Assuming it is Base64 is toss it into CyberChef too see what the output is. It appears Base64 was correct but it doesn’t look like this is the full encoded string. 
 
-![Untitled](Not%20This%20Again%20Official%20Walkthrough%20/Untitled.png)
+![Untitled](./Not%20This%20Again%20Official%20Walkthrough/Untitled.png)
 
 Despite this, I proceed with decoding the first 5 variables to see what the output gives me.
 
@@ -102,15 +102,15 @@ After downloading the payload from the `hxxps://t[.]ly/5nD--` URL, I do some sta
 | ProductVersion | 10.0.19041.3636 |
 - When pulling strings I did a search for “go.” and didn’t find any indicators that this was a Go executable. Although when I searched for “dotnet” and “.NET”, I came across a few hits.
 
-![Untitled](Not%20This%20Again%20Official%20Walkthrough%20/Untitled%201.png)
+![Untitled](./Not%20This%20Again%20Official%20Walkthrough/Untitled%201.png)
 
 Assuming that this executable was written in .NET, I open up ILSpy which is a tool used to analyze .NET executables. Once you drop csrss.exe into ILSpy, scroll all the way down until you see *“YouAreAnIdiot (1.0.0.0, .NETCoreApp, v8.0)”* and navigate to *“Form1”.* This is where all the magic happens!
 
 ![https://i.imgur.com/vGL4Fn5.gif](https://i.imgur.com/vGL4Fn5.gif)
 
-![Untitled](Not%20This%20Again%20Official%20Walkthrough%20/Untitled%202.png)
+![Untitled](./Not%20This%20Again%20Official%20Walkthrough/Untitled%202.png)
 
-![Untitled](Not%20This%20Again%20Official%20Walkthrough%20/Untitled%203.png)
+![Untitled](./Not%20This%20Again%20Official%20Walkthrough/Untitled%203.png)
 
 Scrolling down a few lines, you will see the functions *“Button_Click”* and *“DecryptFlag”.*  In the button click function we can see a reference to DecryptFlag and a Base64 string. In the DecryptFlag function we can get an understanding of what’s happening, here’s the breakdown:
 
@@ -142,7 +142,7 @@ This function decrypts the Base64-encoded input string by:
 2. Performing a simple XOR operation with a constant (**`0x49`**) to decrypt each character.
 3. Reversing the decrypted characters to reveal the original text.
     
-    ![Untitled](Not%20This%20Again%20Official%20Walkthrough%20/Untitled%204.png)
+    ![Untitled](./Not%20This%20Again%20Official%20Walkthrough/Untitled%204.png)
     
 
 ## Get the Flag
