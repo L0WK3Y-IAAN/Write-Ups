@@ -41,7 +41,7 @@ Remember the Imports found in the strings during Static Analysis? Well there are
 
 Alright, first things first let’s set the breakpoint on those two imports, there will be two slight issue though, the first being that you will need to *“A”* to the end of the imports for example *“bp ShellExecuteA”. or “CryptStringToBinaryA”.* After setting a breakpoint on those imports, there is one last import that must be set otherwise the program with exit after being executed. *”IsDebuggerPresent”* This import is commonly used for anti-analysis and I tend to make it a habit of setting a breakpoint on this debugger before executing the program even if it doesn’t show up in imports or strings in PE Studio. Once we run the program and step over to the address where the pointer to *IsDebuggerPresent* is being called we can scroll down a bit to find the reset of the programs execution, including the string that is being decrypted by *CryptStringToBinaryA.*
 
-![https://i.imgur.com/jDh6x6a.gif](https://i.imgur.com/jDh6x6a.gif)
+![isDebuggerPresent](https://i.imgur.com/jDh6x6a.gif)
 
 Now that we have the encoded string, we need to decode it. Assuming it is Base64 is toss it into CyberChef too see what the output is. It appears Base64 was correct but it doesn’t look like this is the full encoded string. 
 
